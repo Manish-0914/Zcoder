@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
 :root {
-  --primary-background: #1A1B26;
-  --secondary-background: #252737;
-  --primary-accent: #00D4FF;
-  --secondary-accent: #7B2CBF;
+  --primary-background: #181a2a;
+  --secondary-background: #23244d;
+  --primary-accent: #5c6bc0;
+  --secondary-accent: #7e57c2;
   --success: #34C759;
   --error: #FF4C4C;
-  --text-primary: #E6E6FA;
-  --text-secondary: #A0AEC0;
-  --highlight: #4B5EAA;
+  --text-primary: #e3e6fa;
+  --text-secondary: #b39ddb;
+  --highlight: #b2a4ff;
 }
 
 .solution-detail {
@@ -19,7 +19,7 @@
   color: var(--text-primary);
   background-color: var(--primary-background);
   border-radius: 14px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(80, 0, 128, 0.15);
 }
 
 .solution-actions {
@@ -46,7 +46,7 @@
 }
 
 .back-button:hover {
-  background-color: rgba(0, 212, 255, 0.1);
+  background-color: rgba(92, 107, 192, 0.1);
 }
 
 .delete-btn {
@@ -104,7 +104,7 @@
 }
 
 .meta-item.language {
-  background-color: rgba(0, 212, 255, 0.1);
+  background-color: rgba(92, 107, 192, 0.1);
   color: var(--primary-accent);
   text-transform: uppercase;
   font-weight: 500;
@@ -116,11 +116,11 @@
 }
 
 .meta-item.date {
-  background-color: rgba(160, 174, 192, 0.1);
+  background-color: rgba(179, 157, 219, 0.1);
 }
 
 .solution-code {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--secondary-background);
   padding: 1.5rem;
   border-radius: 8px;
   overflow-x: auto;
@@ -129,6 +129,7 @@
   margin: 1.5rem 0;
   font-size: 0.95rem;
   border: 1px solid var(--highlight);
+  color: var(--text-primary);
 }
 
 .loading {

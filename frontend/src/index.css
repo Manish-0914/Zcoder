@@ -6,15 +6,15 @@
 }
 
 :root {
-  --primary-background: #1A1B26;
-  --secondary-background: #252737;
-  --primary-accent: #00D4FF;
-  --secondary-accent: #7B2CBF;
+  --primary-background: #181a2a;
+  --secondary-background: #23244d;
+  --primary-accent: #5c6bc0;
+  --secondary-accent: #7e57c2;
   --success: #34C759;
   --error: #FF4C4C;
-  --text-primary: #E6E6FA;
-  --text-secondary: #A0AEC0;
-  --highlight: #4B5EAA;
+  --text-primary: #e3e6fa;
+  --text-secondary: #b39ddb;
+  --highlight: #b2a4ff;
   width: 100vw;
   margin: 0;
 }
@@ -36,14 +36,15 @@ body {
   overflow: auto;
 }
 
-.whole-container{
+.whole-container {
   overflow-x: hidden;
   height: 100vh;
 }
 
+/* Scrollbar Styles */
 ::-webkit-scrollbar {
-  width: 8px;  /* Vertical scrollbar width */
-  height: 8px; /* Horizontal scrollbar height */
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {

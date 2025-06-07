@@ -1,4 +1,4 @@
-
+/* Updated color scheme: blue & purple */
 .ask-ai-container {
   max-width: 800px;
   margin: 0 auto;
@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
   height: 80vh;
-  background-color: #121212;
-  color: #e0f2f1;
+  background-color: #181a2a;
+  color: #e3e6fa;
   font-family: 'Poppins', sans-serif;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 128, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(80, 0, 128, 0.15);
 }
 
 .ask-ai-container .conversation {
@@ -18,9 +18,9 @@
   overflow-y: auto;
   margin-bottom: 20px;
   padding: 15px;
-  background: #1e1e1e;
+  background: #23244d;
   border-radius: 12px;
-  box-shadow: inset 0 0 10px rgba(76, 175, 80, 0.1);
+  box-shadow: inset 0 0 10px rgba(103, 58, 183, 0.1);
 }
 
 .ask-ai-container .message {
@@ -43,23 +43,23 @@
   word-wrap: break-word;
   font-size: 1rem;
   line-height: 1.5;
-  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.15);
+  box-shadow: 0 4px 8px rgba(80, 0, 128, 0.15);
 }
 
 .ask-ai-container .user .message-content {
-  background: #4caf50;
+  background: #5c6bc0;
   color: #fff;
   border-top-right-radius: 0;
 }
 
 .ask-ai-container .ai .message-content {
-  background: #2c2c2c;
-  color: #dcedc8;
+  background: #3c3f58;
+  color: #e1bee7;
   border-top-left-radius: 0;
 }
 
 .ask-ai-container .loading {
-  color: #a5d6a7;
+  color: #b39ddb;
   font-style: italic;
   text-align: center;
 }
@@ -72,23 +72,23 @@
 .ask-ai-container .message-form input {
   flex: 1;
   padding: 12px;
-  border: 2px solid #4caf50;
+  border: 2px solid #5c6bc0;
   border-radius: 10px;
-  background: #1c1c1c;
-  color: #e8f5e9;
+  background: #23244d;
+  color: #e3e6fa;
   font-size: 1rem;
   transition: border 0.3s, background 0.3s;
 }
 
 .ask-ai-container .message-form input:focus {
-  border-color: #66bb6a;
-  background: #2a2a2a;
+  border-color: #7e57c2;
+  background: #2e2f5c;
   outline: none;
 }
 
 .ask-ai-container .message-form button {
   padding: 12px 20px;
-  background: #4caf50;
+  background: #7e57c2;
   color: white;
   border: none;
   border-radius: 10px;
@@ -98,12 +98,12 @@
 }
 
 .ask-ai-container .message-form button:hover {
-  background: #388e3c;
+  background: #512da8;
   transform: translateY(-2px);
 }
 
 .ask-ai-container .message-form button:disabled {
-  background: #2e7d32;
+  background: #311b92;
   opacity: 0.6;
   cursor: not-allowed;
 }
@@ -113,16 +113,16 @@
   background-color: #263238;
   padding: 4px 6px;
   border-radius: 4px;
-  color: #c5e1a5;
+  color: #b2a4ff;
   font-family: 'Roboto Mono', monospace;
 }
 
 .ask-ai-container .react-markdown pre {
-  background-color: #1b1b1b;
+  background-color: #23244d;
   padding: 14px;
   border-radius: 10px;
   overflow-x: auto;
-  color: #e0f2f1;
+  color: #e3e6fa;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -143,5 +143,5 @@
 
 .ask-ai-container .react-markdown strong {
   font-weight: bold;
-  color: #c8e6c9;
+  color: #b39ddb;
 }
