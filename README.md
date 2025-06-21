@@ -1,9 +1,10 @@
 
 # ZCoder
 
-A interactive coding community platform to practise and scale up your skills.
+An interactive coding community platform to practise and scale up your skills.
 
-## to run locally
+## 🔧 How to Run Locally
+
 ### first clone the repository
 ``` bash
 git clone https://github.com/vijay-kumar-79/ZCoder.git
@@ -15,7 +16,7 @@ cd backend
 npm i 
 nodemon index.js
 ```
-also create a new file called .env in the backend folder at the same level of index.js. The format for it is
+Create a file named `.env` in the `backend` folder (at the same level as `index.js`) with the following content:
 ```
 GROQ_API_KEY = your_api_key
 ```
